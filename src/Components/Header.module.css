@@ -19,6 +19,7 @@
     display: flex;
     align-items: center;
     gap: 5px;
+    padding: 25px;
 }
 
 .Logocomnome a{
@@ -27,15 +28,17 @@
     width: auto;
     display: flex;
     font-size: 25px;
+    cursor: pointer ;
 }
 .Logocomnome img{
+    cursor: pointer ;
     height: 50px;
     width: auto;
     display: flex;
 }
 
 .Operacoes{
-    width: 45%;
+    width: 50%;
     display: flex;
     margin: auto;
     align-items: center;
@@ -46,10 +49,18 @@ nav{
     display: flex;   
     font-size: 20px;
     gap: 35px;
+    cursor: pointer ;
+}
+
+.Canto_esquerdo{
+    width: 25%;
+    display: flex;
+    margin: auto;
+    gap: 25px;
+    padding: 25px;
 }
 
 .Saldo{
-    width: 25%;
     display: flex;
     align-items: center;
     gap: 5px;
@@ -62,30 +73,13 @@ nav{
 }
 
 .Saldo img{
-    height: auto;
-    width: 35px;
+
+    height: 35px;
     display: flex;
     margin-left: auto;
 }
 
-.Mao{
-    width: auto;
-    display: flex;
-    align-items: center;
-}
-
-.Mao p{
-    display: flex;
-}
-
-.Mao img{
-    height: auto;
-    width: 35px;
-    display: flex;
-}
-
 .User{
-    width: 25%;
     display: flex;
     align-items: center;
     gap: 5px;

@@ -22,18 +22,19 @@ function Header(){
             </nav>
         </div>
 
-        <div className={Styles.Saldo}>
-            <img src={Olho} />
-            <p>Seu Saldo</p>
-        </div>
+        <div className={Styles.Canto_esquerdo}>
 
-        <div className={Styles.Mao}>
-            <img src={Ganhos} />
-        </div>
+            <div className={Styles.Saldo}>
+                <img src={Olho} />
+                <p>Seu Saldo</p>
+                <img src={Ganhos} />
+            </div>
 
-        <div className={Styles.User}>
-           <p>Entre</p> 
+            <div className={Styles.User}>
+            <p>Entre</p> 
             <img src={Perfil} />
+            </div>
+
         </div>
     </div>
     )
