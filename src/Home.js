@@ -1,7 +1,7 @@
 import './App.css';
 import Header from './Components/Header';
 
-function App() {
+function Home() {
   return (
     <div className="App">
         <Header  />
@@ -9,4 +9,4 @@ function App() {
   );
 }
 
-export default App;
+export default Home;
