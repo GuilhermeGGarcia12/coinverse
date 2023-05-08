@@ -22,9 +22,6 @@ function Header(){
             </nav>
         </div>
 
-
-        <div className={Styles.}>
-
         <div className={Styles.Saldo}>
             <img src={Olho} />
             <p>Seu Saldo</p>
@@ -35,11 +32,9 @@ function Header(){
         </div>
 
         <div className={Styles.User}>
-            <img src={Perfil} />
            <p>Entre</p> 
+            <img src={Perfil} />
         </div>
-        </div>
-
     </div>
     )
 }

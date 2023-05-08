@@ -37,6 +37,8 @@
 .Operacoes{
     width: 45%;
     display: flex;
+    margin: auto;
+    align-items: center;
 }
 
 nav{
@@ -51,16 +53,19 @@ nav{
     display: flex;
     align-items: center;
     gap: 5px;
+    margin-left: auto;
 }
 
 .Saldo p{
     display: flex;
+    margin-left: auto;
 }
 
 .Saldo img{
     height: auto;
     width: 35px;
     display: flex;
+    margin-left: auto;
 }
 
 .Mao{
