@@ -43,6 +43,7 @@
     height: auto;
     background-color: #ffffff;
     color: #7E65AA;
+    flex: justify-between;
 }
 
 .Texto2 h1 {
@@ -56,27 +57,28 @@
     height: 450px;
     display: flex;
     align-items: center;
+    background-color: #7E65AA;
 }
 
 .Parte1 h3{
+    align-items: center;
     display: flex;
 }
 
 .Imagemdamoca{
    width: 40%;
    height: 200px;
-
+   
 }
 
 .Imagemoca{
     width: 30%;
-    align-items: left;
     padding: 25px;
-    display: flex;
 }
 
 h3{
     color: #7E65AA;
+
 }
 
 .Parte2{

@@ -36,6 +36,7 @@ function Section (){
                 </div>
 
         </div>
+
         <div className="Section2">
             
             <div className={Styles.Texto2}>
@@ -49,13 +50,14 @@ function Section (){
                 <div className="Imagemdamoca">
                     <img src={Moca} className={Styles.Imagemoca} />
                 </div>
+                    
+                        <h3>A Coinverse oferece uma conta bancária digital <br />
+                            completa para seus clientes, que pode ser aberta <br />
+                            de forma rápida e fácil, sem a necessidade de <br />
+                            enfrentar filas ou burocracias em agências bancárias.
+                        </h3>
           
-                <div className="Texto4">
-                    <h3> Além disso, a empresa oferece uma conta digital completa<br />
-                        com cartão de crédito e débito, serviços de análise <br />
-                        financeira, notícias e recomendações de investimento.
-                    </h3>
-                </div>
+                
 
             </div>
             <br />
@@ -63,17 +65,23 @@ function Section (){
             <div className="Parte2">
 
                 <div className="Texto3">
-                        <h3>A Coinverse oferece uma conta bancária digital <br />
-                            completa para seus clientes, que pode ser aberta <br />
-                            de forma rápida e fácil, sem a necessidade de <br />
-                            enfrentar filas ou burocracias em agências bancárias.
-                        </h3>
                     </div>
 
                     <div className="Imagemocofeliz">
                         <img src={Mocofeliz} className={Styles.Imagemocofeliz} />
                     </div>
+                <h3>
+                    Além disso, a empresa oferece uma conta digital completa<br />
+                    com cartão de crédito e débito, serviços de análise <br />
+                    financeira, notícias e recomendações de investimento.
+                </h3>
+
                 </div>
+
+        </div>
+
+        <div className="Section3">
+            
         </div>
 
 
