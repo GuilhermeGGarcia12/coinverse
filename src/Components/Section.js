@@ -31,13 +31,13 @@ function Section (){
                 </div>
 
             </div>
-                <div className="Image_Invest">
+                <div className={Styles.Image_Invest}>
                     <img src={Invest} className={Styles.Image_Home} /> 
                 </div>
 
         </div>
 
-        <div className="Section2">
+        <div className={Styles.Section2}>
             
             <div className={Styles.Texto2}>
                 <h1>
@@ -45,9 +45,9 @@ function Section (){
                 </h1>
             </div>
 
-            <div className="Parte1">
+            <div className={Styles.Parte1}>
 
-                <div className="Imagemdamoca">
+                <div className={Styles.Imagemdamoca}>
                     <img src={Moca} className={Styles.Imagemoca} />
                 </div>
                     
@@ -62,12 +62,12 @@ function Section (){
             </div>
             <br />
 
-            <div className="Parte2">
+            <div className={Styles.Parte2}>
 
-                <div className="Texto3">
+                <div className={Styles.Texto3}>
                     </div>
 
-                    <div className="Imagemocofeliz">
+                    <div className={Styles.Imagemocofeliz}>
                         <img src={Mocofeliz} className={Styles.Imagemocofeliz} />
                     </div>
                 <h3>
@@ -80,8 +80,8 @@ function Section (){
 
         </div>
 
-        <div className="Section3">
-            
+        <div className={Styles.Section3}>
+
         </div>
 
 
