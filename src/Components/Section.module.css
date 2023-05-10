@@ -37,3 +37,53 @@
     margin-top: 50px; 
     margin-right: 75px;
 }
+
+.Section2{
+    width: 100%;
+    height: auto;
+    background-color: #ffffff;
+    color: #7E65AA;
+}
+
+.Texto2 h1 {
+    color: #7E65AA;
+    
+
+}
+
+.Imagemdamoca{
+   width: 40%;
+   height: 200px;
+   float: left;
+
+}
+
+.Imagemoca{
+    width: 30%;
+    align-items: left;
+    padding: 25px;
+    float: left;
+    
+}
+
+.Linha{
+    align-items: center;
+    background-color: #7E65AA;
+    width: 45px;
+}
+
+.Texto3{
+    width: 40%;
+    float: left;
+
+}  
+
+h3{
+    color: #7E65AA;
+    float: left;
+    text-align: right;
+}
+
+.Texto4{
+    
+}
