@@ -44,33 +44,36 @@ function Section (){
                 </h1>
             </div>
 
-            <div className="Imagemdamoca">
-                <img src={Moca} className={Styles.Imagemoca} />
-            </div>
+            <div className="Parte1">
 
-            <div className="Linha">
-                <img src={Linha} className={Styles.Linha1} />
-            </div>
+                <div className="Imagemdamoca">
+                    <img src={Moca} className={Styles.Imagemoca} />
+                </div>
+          
+                <div className="Texto4">
+                    <h3> Além disso, a empresa oferece uma conta digital completa<br />
+                        com cartão de crédito e débito, serviços de análise <br />
+                        financeira, notícias e recomendações de investimento.
+                    </h3>
+                </div>
 
-            <div className="Texto3">
-                <h3>A Coinverse oferece uma conta bancária digital <br />
-                    completa para seus clientes, que pode ser aberta <br />
-                    de forma rápida e fácil, sem a necessidade de <br />
-                    enfrentar filas ou burocracias em agências bancárias.
-                </h3>
             </div>
+            <br />
 
-            <div className="Texto4">
-                <h3> Além disso, a empresa oferece uma conta digital completa<br />
-                     com cartão de crédito e débito, serviços de análise <br />
-                     financeira, notícias e recomendações de investimento.
-                </h3>
-            </div>
+            <div className="Parte2">
 
-            <div className="Imagemocofeliz">
-                <img src={Mocofeliz} className={Styles.Imagemocofeliz} />
-            </div>
+                <div className="Texto3">
+                        <h3>A Coinverse oferece uma conta bancária digital <br />
+                            completa para seus clientes, que pode ser aberta <br />
+                            de forma rápida e fácil, sem a necessidade de <br />
+                            enfrentar filas ou burocracias em agências bancárias.
+                        </h3>
+                    </div>
 
+                    <div className="Imagemocofeliz">
+                        <img src={Mocofeliz} className={Styles.Imagemocofeliz} />
+                    </div>
+                </div>
         </div>
 
 

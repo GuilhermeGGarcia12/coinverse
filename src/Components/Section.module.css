@@ -51,10 +51,20 @@
 
 }
 
+.Parte1{
+    width: 100%;
+    height: 450px;
+    display: flex;
+    align-items: center;
+}
+
+.Parte1 h3{
+    display: flex;
+}
+
 .Imagemdamoca{
    width: 40%;
    height: 200px;
-   float: left;
 
 }
 
@@ -62,28 +72,16 @@
     width: 30%;
     align-items: left;
     padding: 25px;
-    float: left;
-    
+    display: flex;
 }
-
-.Linha{
-    align-items: center;
-    background-color: #7E65AA;
-    width: 45px;
-}
-
-.Texto3{
-    width: 40%;
-    float: left;
-
-}  
 
 h3{
     color: #7E65AA;
-    float: left;
-    text-align: right;
 }
 
-.Texto4{
-    
+.Parte2{
+    width: 100%;
+    height: 450px;
+    display: flex;
+    align-items: center;
 }
