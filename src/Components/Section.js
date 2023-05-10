@@ -68,18 +68,22 @@ function Section (){
                         de forma rápida e fácil, sem a necessidade de <br />
                         enfrentar filas ou burocracias em agências bancárias.
                     </h3>
-
                     <img src={Linha} className={Styles.Linha} />
 
-                </div>
                     <div className={Styles.Imagemocofeliz}>
                         <img src={Mocofeliz} className={Styles.Imagemocofeliz} />
                     </div>
+
+                </div>
             </div>
         </div> 
 
+        <div className={Styles.Section3}>
+            
+        </div>
 
     </div>
+    
     )
 }
 

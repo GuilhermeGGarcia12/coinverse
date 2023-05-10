@@ -69,13 +69,14 @@
 }
 
 .Parte1 img{
-    width: 72.5%;
+    width: 70%;
+    width: 70%;
     margin-left: 50px;
     margin-top: 10px;
 }
 
 .Parte2{
-    width: 50%;
+    width: 45%;
     height: 450px;
     align-items: center;
 }
@@ -84,7 +85,7 @@
     display: flex;
     flex-direction: column;
     justify-content: left;
-    margin-top: 50px;
+    margin-top: 75px;
 
 }
 
@@ -94,8 +95,7 @@
 }
 
 .Imagemocofeliz{
-    position: absolute;
-
+    margin-bottom: 25px;
 }
 
 .Imagemocofeliz img{ 
