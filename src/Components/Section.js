@@ -37,13 +37,13 @@ function Section (){
 
         </div>
 
-        <div className={Styles.Section2}>
-            
             <div className={Styles.Texto2}>
                 <h1>
                 Abra já sua conta de maneira facil gratuíta!
                 </h1>
             </div>
+        <div className={Styles.Section2}>
+            
 
             <div className={Styles.Parte1}>
 
@@ -51,39 +51,32 @@ function Section (){
                     <img src={Moca} className={Styles.Imagemoca} />
                 </div>
                     
-                        <h3>A Coinverse oferece uma conta bancária digital <br />
-                            completa para seus clientes, que pode ser aberta <br />
-                            de forma rápida e fácil, sem a necessidade de <br />
-                            enfrentar filas ou burocracias em agências bancárias.
-                        </h3>
-          
-                
-
+                    <h3> Além disso, a empresa oferece uma conta digital completa<br />
+                        com cartão de crédito e débito, serviços de análise <br />
+                        financeira, notícias e recomendações de investimento.
+                    </h3>
             </div>
-            <br />
 
             <div className={Styles.Parte2}>
 
                 <div className={Styles.Texto3}>
-                    </div>
 
+                
+                    <h3>
+                        A Coinverse oferece uma conta bancária digital <br />
+                        completa para seus clientes, que pode ser aberta <br />
+                        de forma rápida e fácil, sem a necessidade de <br />
+                        enfrentar filas ou burocracias em agências bancárias.
+                    </h3>
+
+                    <img src={Linha} className={Styles.Linha} />
+
+                </div>
                     <div className={Styles.Imagemocofeliz}>
                         <img src={Mocofeliz} className={Styles.Imagemocofeliz} />
                     </div>
-                <h3>
-                    Além disso, a empresa oferece uma conta digital completa<br />
-                    com cartão de crédito e débito, serviços de análise <br />
-                    financeira, notícias e recomendações de investimento.
-                </h3>
-
-                </div>
-
-        </div>
-
-        <div className={Styles.Section3}>
-
-        </div>
-
+            </div>
+        </div> 
 
 
     </div>

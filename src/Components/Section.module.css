@@ -25,7 +25,7 @@
 
 .Image_Invest{
     width: 40%;
-    height: 250px;
+    height: 350px;
 
 }
 
@@ -43,47 +43,61 @@
     height: auto;
     background-color: #ffffff;
     color: #7E65AA;
-    flex: justify-between;
+    display: flex;
 }
 
 .Texto2 h1 {
     color: #7E65AA;
-    
-
+    width: 100%;
+    text-align: center;
+    margin: auto;
+    margin-top: 45px;
 }
 
 .Parte1{
-    width: 100%;
-    height: 450px;
-    display: flex;
+    width: 50%;
+    height: auto;
     align-items: center;
-    background-color: #7E65AA;
 }
 
 .Parte1 h3{
     align-items: center;
     display: flex;
-}
-
-.Imagemdamoca{
-   width: 40%;
-   height: 200px;
-   
-}
-
-.Imagemoca{
-    width: 30%;
-    padding: 25px;
-}
-
-h3{
     color: #7E65AA;
+    margin-bottom: 25px;
+    padding: 75px;
+}
 
+.Parte1 img{
+    width: 72.5%;
+    margin-left: 50px;
+    margin-top: 10px;
 }
 
 .Parte2{
-    width: 100%;
+    width: 50%;
     height: 450px;
-    display: flex;
     align-items: center;
+}
+
+.Texto3{
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    margin-top: 50px;
+
+}
+
+.Linha{
+    width: fit-content;
+    height: 275px;
+}
+
+.Imagemocofeliz{
+    position: absolute;
+
+}
+
+.Imagemocofeliz img{ 
+    width: 70%; 
 }
