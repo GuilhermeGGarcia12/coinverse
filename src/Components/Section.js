@@ -93,7 +93,7 @@ function Section (){
                 <button>Invista</button>
             </div>
             <div className={Styles.Modal1}>
-                <img src={Casal} className={Styles.Imagemodal} />
+                <img src={Casal} className={Styles.Imagemodal2} />
                 <button>Aprenda</button>
             </div>
             <div className={Styles.Modal1}>
@@ -107,7 +107,12 @@ function Section (){
             <div className={Styles.Cards}>
                 <div className={Styles.Cards1}>
                     <img src={Logo} className={Styles.Logozada} />
-                    <h3 className={Styles.Textocard}>Cardverse</h3>
+                    <h2 className={Styles.Textocard}>Cardverse</h2>
+                </div>
+                
+                <div className={Styles.Cards2}>
+                    <h3 className={Styles.Nome}>1234 1234 1234 1234</h3>
+                    <h3 className={Styles.Nome}>Peça já o seu Cardverse!</h3>
                 </div>
             </div>
         </div>
