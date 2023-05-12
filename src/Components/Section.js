@@ -3,6 +3,11 @@ import Invest from '../assets/invest.jpg';
 import Moca from '../assets/moca.png';
 import Linha from '../assets/linha.png';
 import Mocofeliz from '../assets/mocofeliz.png';
+import Ruiva from '../assets/ruiva.jpg';
+import Mexepc from '../assets/mexepc.jpg';
+import Casal from '../assets/casal.jpg';
+import Investidor from '../assets/investidor.jpg';
+import Logo from '../assets/logobranca.png';
 
 function Section (){
     return (
@@ -43,7 +48,6 @@ function Section (){
                 </h1>
             </div>
         <div className={Styles.Section2}>
-            
 
             <div className={Styles.Parte1}>
 
@@ -80,8 +84,33 @@ function Section (){
 
         <div className={Styles.Section3}>
             
+            <div className={Styles.Modal1}>
+                <img src={Ruiva} className={Styles.Imagemodal} />
+                <button>Opere na bolsa</button>
+            </div>
+            <div className={Styles.Modal1}>
+                <img src={Mexepc} className={Styles.Imagemodal} />
+                <button>Invista</button>
+            </div>
+            <div className={Styles.Modal1}>
+                <img src={Casal} className={Styles.Imagemodal} />
+                <button>Aprenda</button>
+            </div>
+            <div className={Styles.Modal1}>
+                <img src={Investidor} className={Styles.Imagemodal} />
+                <button>Conheça nossos serviços</button>
+            </div>
+
         </div>
 
+        <div className={Styles.Section4}>
+            <div className={Styles.Cards}>
+                <div className={Styles.Cards1}>
+                    <img src={Logo} className={Styles.Logozada} />
+                    <h3 className={Styles.Textocard}>Cardverse</h3>
+                </div>
+            </div>
+        </div>
     </div>
     
     )

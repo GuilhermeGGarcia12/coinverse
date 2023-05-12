@@ -70,7 +70,6 @@
 
 .Parte1 img{
     width: 70%;
-    width: 70%;
     margin-left: 50px;
     margin-top: 10px;
 }
@@ -95,9 +94,77 @@
 }
 
 .Imagemocofeliz{
-    margin-bottom: 25px;
+    
+    margin-top: -80px;
 }
 
 .Imagemocofeliz img{ 
     width: 70%; 
+}
+
+.Section3{
+    width: 100%;
+    height: auto;
+    background-color: #ffffff;
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+    color: #ffffff;
+    margin-top: 50px;
+}
+
+.Modal1{
+    width: 20%;
+    height: 215px;
+    background-color: #2D2D44;
+    border-radius: 15px;
+
+}
+
+.Imagemodal{
+    width: 100%;
+    height: 180px;
+    border-radius: 15px 15px 0px 0px;
+}
+
+
+.Modal1 button{
+    width: 100%;
+    height: 35px;
+    background-color: #2D2D44;
+    border-radius: 15px;
+    color: #ffffff;
+    font-size: 20px;
+}
+
+.Section4{
+    width: 100%;
+    height: auto;
+    display: flex;
+    padding: 50px;
+}
+
+.Cards{
+    width: 40%;
+    height: 250px;
+    background-color: #7E65AA;
+    display: flex;
+    border-radius: 15px;
+}
+
+.Cards1{
+    width: 35%;
+    height: 100px;
+    display: flex;
+}
+
+.Logozada{
+    width: 75px;
+    height: 60px;
+    padding: 20px;
+    gap: 5px;
+}
+.Cards h3{
+    color: #ffffff;
+    margin: auto;
 }
